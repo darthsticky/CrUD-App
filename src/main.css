@@ -3,5 +3,33 @@
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
-    width: 400px;
+    width: 500px;
+}
+.appTitle {
+    text-align: center;
+    font-size: 25px;
+}
+.textSnip {
+    padding: .5rem;
+    margin: 5px;
+}
+pre, code {
+    font-family: monospace, monospace;
+}
+pre {
+    overflow: auto;
+}
+pre > code {
+    display: block;
+    padding: .5rem;
+    word-wrap: normal;
+}
+.snippetWrapper {
+    margin-top: 20px;
+}
+input {
+    margin: 5px;
+}
+button {
+    margin: 5px;
 }

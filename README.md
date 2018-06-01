@@ -12,8 +12,8 @@ When requested, the app should display code in a text area.
 
 ### Next GoalSet
 
-- [ ] Make it handle code! (textArea instead of text)
-- [ ] Have two fields. one is short name the other is code snippet
-- [ ] store name and code inside localStorage
-- [ ] display all snippets
-- [ ] search for a snippet using name
+- [x] Make it handle code! (textArea instead of text)
+- [x] Have two fields. one is short name the other is code snippet
+- [x] store name and code inside localStorage
+- [x] display all snippets
+- [x] search for a snippet using name

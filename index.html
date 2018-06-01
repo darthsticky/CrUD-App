@@ -9,12 +9,20 @@
 </head>
 <body>
     <div class="wrapper">
+        <div class="appTitle">Add Snippets</div>
         <div class="textWrap">
-            <input class="textField" type="text" name="firstInputField">
-            <button class="setData">Set Text</button>
-            <button class="getData">Get Text</button>
+            <input class="textName" type="text" name="nameInputField"> <!-- Field for name of snippet -->
+            <textarea class="textSnip" name="snippetInputField" rows="12" cols="50"></textarea>
+            <button class="setData">Submit Snippet</button> <!-- Should change to submit snippet name -->
+             <!-- Should only have one button submit the name and the snippet -->
+            <!-- textArea should be used to submit snippet textField for name -->
+            <!-- A second area of the page should be used to display the name of the snippet and snippet snippet ideally should format like code -->
         </div>    
-        <div class="debug"></div>
+        <div class="snippetWrapper">
+            <input type="searchText" name="searchSnippets" class="searchInput">
+            <button class="getSnip">Get Snippet</button>
+            <button class="showAll">Show All Snippets</button>
+        </div>
     </div>
 
 </body>
