@@ -5,6 +5,6 @@ CrUD Create Update Delete App
 
 
 ### The Goals 
-- [ ] Input form with single text input
-- [ ] Click Handler to capture data in text form field
+- [x] Input form with single text input
+- [x] Click Handler to capture data in text form field
 - [ ] Helper utilities to read and write to local storage
