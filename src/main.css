@@ -1,4 +1,7 @@
-body {
-    min-width: 500px;
+.wrapper {
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    width: 400px;
 }

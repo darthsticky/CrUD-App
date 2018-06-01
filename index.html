@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>CRUD APP</title>
-    <script src="jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="src/main.css">
 </head>
 <body>
-    <input class="textField" type="text" name="firstInputField">
-    <button class="submitForm">Click to Save</button>
-    <div class="debug"></div>
+    <div class="wrapper">
+        <div class="textWrap">
+            <input class="textField" type="text" name="firstInputField">
+            <button class="setData">Set Text</button>
+            <button class="getData">Get Text</button>
+        </div>    
+        <div class="debug"></div>
+    </div>
+
 </body>
 </html>
